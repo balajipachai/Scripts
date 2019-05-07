@@ -71,11 +71,11 @@ function installVyper() {
 if (( $(echo "$ubuntuVersion <= $ubuntuXenialXerus" | bc -l) )); then
     installPreReqsForVyperOnXenialXerusOrOlder "$ubuntuVersion"
     createVirtualEnv
-#    installVyper
+    installVyper
     elif (( $(echo "$ubuntuVersion >= 16.10" | bc -l) )); then
         installPreReqsForVyperOnAboveXenialXerus "$ubuntuVersion"
         createVirtualEnv
-#        installVyper
+        installVyper
 fi
 
 #This script has been created by referring the commands on Vyper: Read the docs official page's Installing Vyper section
