@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Reference: https://www.tecmint.com/install-go-in-ubuntu/
+
 echo "This script will install go v1.15.5"
 
 echo "Get the tar file...."
