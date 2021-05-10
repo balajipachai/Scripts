@@ -1,0 +1,19 @@
+{
+  "name": "ethereum-scripts",
+  "version": "1.0.0",
+  "description": "Dependencies required for executing ethereum scripts.",
+  "main": "getAccountTransactions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum",
+    "scripts",
+    "automation"
+  ],
+  "author": "Balaji Shetty Pachai",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.3.5"
+  }
+}

@@ -1,2 +1,7 @@
 #Ignore files of IntelliJ editor
 .idea
+
+#Ignore package dependency files (node_modules)
+javascript/ethereum/node_modules
+javascript/ethereum/package-lock.json
+javascript/ethereum/accountTransactions.json
