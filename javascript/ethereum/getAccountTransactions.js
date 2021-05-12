@@ -1,5 +1,5 @@
 const Web3 = require('web3')
-const web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:8501'))
+const web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:8501')) // REPLACE THIS WITH THE WEB3 ENDPOINT OF YOUR NODE
 const util = require('util')
 const fs = require('fs')
 const stream = require('stream')
