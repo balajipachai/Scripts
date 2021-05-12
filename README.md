@@ -8,3 +8,7 @@ This project contains shell scripts that have been created by the creator's expe
 `chmod ugo+x *.sh`
 
 where `*` can be any script from the project directories
+
+# javascript/ethereum
+
+This directory contains scripts which are particularly related to the Ethereum Blockchain.
