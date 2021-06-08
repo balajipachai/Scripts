@@ -2,6 +2,10 @@
 #Author: Balaji Shetty Pachai
 #Date Created: 06/05/2021
 
+#Install Curl
+echo -e "Installing curl\n"
+sudo apt-get curl
+
 curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
 echo -e "Grants execute permission to install_nvm script\n"
 chmod ugo+x install_nvm.sh
@@ -30,3 +34,6 @@ else
     echo -e "1.List node versions using nvm: 'nvm ls-remote'"
     echo -e "2.Pass the node version to install script as mentioned in 'Execute the script'"
 fi
+
+#Loads the profile at the end
+source ~/.profile
