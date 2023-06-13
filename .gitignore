@@ -5,3 +5,7 @@
 javascript/ethereum/node_modules
 javascript/ethereum/package-lock.json
 javascript/ethereum/accountTransactions.json
+
+#Ignore dont-reinvent-wheel node_modules folder
+dont-reinvent-wheel/node_modules
+dont-reinvent-wheel/package-lock.json
