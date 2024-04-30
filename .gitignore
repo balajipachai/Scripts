@@ -10,3 +10,11 @@ javascript/ethereum/accountTransactions.json
 dont-reinvent-wheel/node_modules
 dont-reinvent-wheel/package-lock.json
 javascript/ethereum/.env
+dont-reinvent-wheel/.DS_Store
+
+#Ignore database node_modules folder
+database/node_modules
+database/package-lock.json
+
+#Miscellaneous
+.DS_Store
